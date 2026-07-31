@@ -455,6 +455,191 @@ The Product Hub should therefore:
 * Ensure that all content remains discoverable, interconnected, and reusable.
 
 6. Scope
+# Scope
+
+## Overview
+
+The Product Hub is a long-term product that will be developed iteratively over multiple releases. While the long-term vision encompasses a comprehensive ecosystem of learning, consulting, mentoring, AI-assisted experiences, and community engagement, the initial phases will focus on establishing a robust documentation-first knowledge platform.
+
+This section defines the scope for the product, distinguishing between capabilities that are planned for the initial releases and those that are intentionally deferred to future phases.
+
+---
+
+# In Scope
+
+The following capabilities are considered part of the initial product scope.
+
+## Documentation Platform
+
+* Documentation-first website.
+* Structured knowledge base.
+* Evergreen content model.
+* Markdown-based content authoring.
+* Version-controlled documentation.
+* Static-first architecture.
+
+---
+
+## Learning Platform
+
+* Structured learning paths.
+* Beginner, Intermediate, and Advanced content.
+* Framework explanations.
+* Methodology guides.
+* Practical examples.
+* Exercises and quizzes (where appropriate).
+
+---
+
+## Knowledge Library
+
+* Product Management concepts.
+* Product Ownership.
+* Agile methodologies.
+* Product Discovery.
+* Product Strategy.
+* Product Delivery.
+* Product Analytics.
+* Product Leadership.
+* Product Operations.
+* Platform Products.
+* UX fundamentals relevant to Product Management.
+
+---
+
+## Practical Resources
+
+* Framework library.
+* Templates.
+* Playbooks.
+* Checklists.
+* Case studies.
+* Glossary.
+* Reference material.
+
+---
+
+## Career Resources
+
+* Interview preparation.
+* Career roadmap.
+* Learning recommendations.
+* Professional development guidance.
+
+---
+
+## Platform Capabilities
+
+* Site-wide search.
+* Content categorisation.
+* Tagging and taxonomy.
+* Internal linking.
+* Responsive design.
+* Accessibility support.
+* SEO optimisation.
+* Analytics.
+
+---
+
+# Out of Scope
+
+The following capabilities are intentionally excluded from the initial releases.
+
+## Community Platform
+
+* Discussion forums.
+* User-generated content.
+* Social networking features.
+* Reputation systems.
+* Community moderation.
+
+---
+
+## User Accounts
+
+* Authentication.
+* User profiles.
+* Personal dashboards.
+* Saved learning progress.
+* Bookmarks.
+* Notifications.
+
+---
+
+## Commercial Features
+
+* Subscription management.
+* Online payments.
+* Course purchases.
+* Digital product sales.
+* Marketplace functionality.
+
+---
+
+## Enterprise Features
+
+* Multi-tenant deployments.
+* Organisation administration.
+* Team management.
+* Enterprise reporting.
+* Single Sign-On (SSO).
+
+---
+
+## Advanced AI
+
+The following AI capabilities are intentionally deferred until the platform has accumulated a substantial body of high-quality content:
+
+* AI Tutor.
+* AI Interview Coach.
+* AI Study Planner.
+* Semantic Search.
+* AI Knowledge Assistant.
+* Personalised learning recommendations.
+
+---
+
+# Future Scope
+
+The long-term roadmap includes:
+
+* Mentoring platform.
+* Consulting service portal.
+* Workshop management.
+* Certification programmes.
+* Community platform.
+* AI-powered learning experiences.
+* Interactive learning modules.
+* Personalised learning journeys.
+* Mobile applications.
+* API ecosystem.
+* Third-party integrations.
+
+These capabilities align with the long-term product vision but are not required for the initial releases.
+
+---
+
+# Scope Management Principles
+
+To maintain focus and deliver value incrementally, all proposed features will be evaluated against the following principles:
+
+* Does the feature support the product vision?
+* Does it solve a validated user problem?
+* Does it provide measurable value?
+* Can it be delivered without compromising platform simplicity?
+* Does it support long-term maintainability?
+* Is it appropriate for the current phase of the roadmap?
+
+Features that do not satisfy these principles will be deferred to future releases or rejected.
+
+---
+
+# Scope Boundaries
+
+The initial objective is to build an exceptional documentation-first Product Management knowledge platform. Every enhancement should strengthen this core capability before introducing additional complexity.
+
+The platform will evolve through iterative releases, ensuring that each new capability is supported by a mature content foundation and aligned with the overall product strategy.
+
 7. Functional Requirements
 8. Non-Functional Requirements
 9. Information Architecture
