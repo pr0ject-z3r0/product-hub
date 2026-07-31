@@ -176,6 +176,93 @@ The Product Hub will become a single, trusted destination where Product Managers
 By reducing information fragmentation and improving knowledge accessibility, the platform will enable users to spend less time searching for information and more time applying it to build successful products.
 
 4. Goals and Objectives
+# Goals and Objectives
+
+## Overview
+
+The Product Hub is intended to be a long-term product rather than a finite project. Its goals extend beyond publishing content and focus on building a sustainable ecosystem for learning, knowledge sharing, consulting, mentoring, and professional development.
+
+The objectives defined in this section provide the strategic direction for product planning, feature prioritisation, and future roadmap decisions.
+
+---
+
+# Business Goals
+
+The platform will:
+
+* Establish a recognised and trusted brand in the Product Management community.
+* Build a sustainable knowledge business with minimal operational costs.
+* Generate opportunities for consulting, mentoring, workshops, and future training programmes.
+* Create reusable intellectual property in the form of documentation, frameworks, templates, and playbooks.
+* Develop a scalable platform that can evolve without major architectural changes.
+
+---
+
+# User Goals
+
+Users should be able to:
+
+* Learn Product Management through structured learning paths.
+* Quickly find reliable and practical information.
+* Understand concepts using real-world examples and case studies.
+* Apply frameworks and methodologies using downloadable templates and playbooks.
+* Prepare for Product Management and Product Owner interviews.
+* Improve their professional skills throughout different stages of their careers.
+* Access a single platform instead of searching across multiple disconnected resources.
+
+---
+
+# Product Goals
+
+The Product Hub should:
+
+* Provide a documentation-first knowledge platform.
+* Maintain a consistent information architecture across all content.
+* Ensure content is searchable, interconnected, and easy to navigate.
+* Support continuous publishing and content updates.
+* Encourage reuse through standardised templates and content models.
+* Scale to thousands of knowledge articles without compromising usability.
+* Support future AI-powered capabilities using structured content.
+
+---
+
+# Technical Goals
+
+The platform should:
+
+* Adopt a static-first architecture to minimise infrastructure costs.
+* Use Markdown as the primary content format.
+* Store all content in version control.
+* Support automated deployment and publishing.
+* Maintain high performance, accessibility, and SEO standards.
+* Enable future integration of semantic search, AI assistants, and recommendation systems.
+* Remain modular and maintainable to support long-term evolution.
+
+---
+
+# Success Objectives
+
+The success of the Product Hub will be measured by its ability to:
+
+* Deliver trustworthy, practical, and evergreen Product Management knowledge.
+* Become the preferred reference platform for Product Managers, Product Owners, and aspiring professionals.
+* Continuously expand its knowledge base while maintaining quality and consistency.
+* Build an engaged audience that returns regularly for learning, reference, and professional development.
+* Support a growing ecosystem of educational, consulting, and AI-powered services built on the same trusted content foundation.
+
+---
+
+# Guiding Principles
+
+All future product decisions should align with the following objectives:
+
+* Deliver value to users before adding complexity.
+* Prioritise quality over quantity.
+* Design for long-term maintainability.
+* Build reusable systems rather than one-off solutions.
+* Optimise for continuous improvement through iterative product development.
+* Preserve the integrity and trustworthiness of published knowledge.
+
 5. Target Users
 6. Scope
 7. Functional Requirements
