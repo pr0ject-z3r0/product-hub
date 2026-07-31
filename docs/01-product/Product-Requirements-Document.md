@@ -1002,6 +1002,212 @@ Each non-functional requirement should:
 * Balance quality, cost, and maintainability.
 
 9. Information Architecture
+# Information Architecture
+
+## Overview
+
+The Information Architecture (IA) defines how knowledge is organised, classified, discovered, and navigated within the Product Hub. Its primary objective is to provide users with a predictable, scalable, and intuitive way to locate information regardless of their experience level or entry point.
+
+The IA is designed to support both human navigation and machine interpretation, enabling future enhancements such as semantic search, AI-assisted discovery, and personalized learning.
+
+---
+
+# Information Architecture Principles
+
+The Product Hub shall adhere to the following principles:
+
+* Organize knowledge by domain rather than by content type.
+* Ensure every piece of content has a single primary location.
+* Minimize duplication through cross-linking and references.
+* Support multiple navigation paths to the same content.
+* Design for scalability from hundreds to thousands of pages.
+* Maintain consistent naming conventions and taxonomy.
+* Enable both browsing and searching as first-class navigation methods.
+
+---
+
+# Primary Knowledge Domains
+
+The platform shall organize content into the following top-level domains:
+
+* Product Management Fundamentals
+* Product Strategy
+* Product Discovery
+* Product Delivery
+* Product Ownership
+* Agile & Scrum
+* Product Analytics
+* Product Leadership
+* Product Operations
+* UX for Product Managers
+* Stakeholder Management
+* Career Development
+* Frameworks
+* Templates
+* Playbooks
+* Case Studies
+* Glossary
+
+These domains represent the primary navigation structure of the platform.
+
+---
+
+# Content Hierarchy
+
+The platform shall organise content using a hierarchical model:
+
+```
+Knowledge Domain
+    ↓
+Category
+    ↓
+Topic
+    ↓
+Article / Guide
+    ↓
+Supporting Resources
+```
+
+Example:
+
+```
+Product Discovery
+    ↓
+Customer Research
+    ↓
+User Interviews
+    ↓
+How to Conduct User Interviews
+    ↓
+Template
+Checklist
+Case Study
+Related Frameworks
+```
+
+---
+
+# Taxonomy
+
+Each content item shall include structured metadata to support discovery and organisation.
+
+Mandatory metadata should include:
+
+* Title
+* Summary
+* Domain
+* Category
+* Tags
+* Difficulty Level
+* Content Type
+* Estimated Reading Time
+* Last Updated
+* Version
+
+Optional metadata may include:
+
+* Prerequisites
+* Related Topics
+* Learning Path
+* Author
+* References
+
+---
+
+# Content Types
+
+The platform shall support multiple content types, including:
+
+* Articles
+* Tutorials
+* Frameworks
+* Templates
+* Playbooks
+* Checklists
+* Case Studies
+* Glossary Entries
+* Interview Questions
+* Learning Paths
+* Reference Guides
+
+Each content type shall follow a standardized template to ensure consistency.
+
+---
+
+# Navigation Model
+
+Users shall be able to navigate content through multiple pathways:
+
+* Primary navigation
+* Breadcrumb navigation
+* Learning paths
+* Category pages
+* Topic collections
+* Search
+* Related content
+* Tags
+* Glossary references
+
+No content should be isolated from the broader knowledge graph.
+
+---
+
+# Internal Linking Strategy
+
+Every content page should include contextual links to:
+
+* Parent topics
+* Child topics
+* Related concepts
+* Supporting frameworks
+* Templates
+* Playbooks
+* Case studies
+* Glossary terms
+
+This interconnected structure will improve discoverability, learning continuity, and SEO.
+
+---
+
+# Search & Discovery
+
+The information architecture shall support:
+
+* Full-text search
+* Faceted filtering
+* Tag-based browsing
+* Category browsing
+* Difficulty-based filtering
+* Content-type filtering
+* Related content recommendations
+
+Future AI-powered search capabilities shall build upon the same structured taxonomy.
+
+---
+
+# Scalability
+
+The architecture shall support:
+
+* Thousands of documentation pages.
+* New knowledge domains without restructuring existing content.
+* Future multilingual content.
+* Additional content types.
+* Future integration with AI-powered assistants.
+
+---
+
+# Information Architecture Success Criteria
+
+The Information Architecture will be considered successful if:
+
+* Users can locate relevant content quickly.
+* Content duplication is minimized.
+* Navigation remains intuitive as the platform grows.
+* Related knowledge is easily discoverable.
+* The structure supports both human users and machine-assisted discovery.
+* New content can be added without requiring structural redesign.
+
 10. Technical Architecture
 11. Success Metrics
 12. Roadmap
