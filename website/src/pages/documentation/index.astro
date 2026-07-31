@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAllDocs } from "../../lib/docs";
+
+const docs = getAllDocs();
+---
+
+<BaseLayout title="Documentation">
+
+  <h2>Documentation</h2>
+
+  <ul>
+    {
+      docs.map((doc) => (
+        <li>
+          <a href={`/documentation/${doc.slug}`}>
+            {doc.title}
+          </a>
+
+          {doc.description && (
+            <p>{doc.description}</p>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+
+</BaseLayout>
