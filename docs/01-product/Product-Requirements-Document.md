@@ -125,6 +125,56 @@ Over the coming years, the Product Hub will evolve into a globally recognised Pr
 Every enhancement to the platform should support this long-term vision while preserving the platform's core principles of quality, clarity, and sustainability.
 
 3. Problem Statement
+# Problem Statement
+
+## Background
+
+Product Management has become one of the most sought-after disciplines in technology and business. However, the body of knowledge surrounding Product Management, Product Ownership, Agile methodologies, Product Strategy, Product Discovery, and Product Delivery is highly fragmented.
+
+Professionals seeking to learn or improve their product skills often rely on a combination of books, blogs, online courses, videos, podcasts, newsletters, documentation, and community discussions. While each resource provides value, there is no single authoritative source that combines structured learning, practical implementation, and continuously maintained reference material.
+
+As a result, learners and practitioners spend significant time searching, comparing, and validating information instead of applying it.
+
+## Current Challenges
+
+The current Product Management learning landscape presents several challenges:
+
+* Knowledge is scattered across multiple platforms and formats.
+* Content quality varies significantly and is often opinion-driven rather than evidence-based.
+* Valuable information becomes outdated or is difficult to maintain.
+* Many resources explain concepts without demonstrating practical application.
+* Frameworks, templates, and case studies are rarely interconnected.
+* Learners struggle to understand how individual topics relate to the broader product lifecycle.
+* Career guidance, interview preparation, and practical resources are often separated into independent platforms.
+
+These issues increase the time and effort required to develop Product Management expertise.
+
+## Opportunity
+
+There is an opportunity to build a documentation-first platform that consolidates Product Management knowledge into a structured, searchable, and continuously evolving repository.
+
+Instead of focusing on short-lived articles or news-driven content, the platform will emphasize evergreen documentation, practical examples, reusable templates, implementation guidance, and curated learning paths.
+
+By organising knowledge through a consistent information architecture and taxonomy, users will be able to navigate seamlessly between concepts, methodologies, frameworks, templates, case studies, and related resources.
+
+## Target Problems
+
+The Product Hub is intended to solve the following problems:
+
+* Difficulty finding trustworthy and comprehensive Product Management knowledge.
+* Lack of structured learning paths that support progressive skill development.
+* Fragmentation of practical resources across multiple websites and tools.
+* Limited access to reusable templates, playbooks, and implementation guides.
+* Poor discoverability of related concepts and supporting material.
+* High effort required to stay current with evolving Product Management practices.
+* Limited integration between learning resources, mentoring, consulting, and professional development.
+
+## Desired Outcome
+
+The Product Hub will become a single, trusted destination where Product Managers, Product Owners, aspiring professionals, students, and organizations can discover, learn, reference, and apply Product Management knowledge efficiently.
+
+By reducing information fragmentation and improving knowledge accessibility, the platform will enable users to spend less time searching for information and more time applying it to build successful products.
+
 4. Goals and Objectives
 5. Target Users
 6. Scope
