@@ -811,6 +811,196 @@ Each functional requirement should:
 * Avoid unnecessary implementation constraints unless required by architecture.
 
 8. Non-Functional Requirements
+# Non-Functional Requirements
+
+## Overview
+
+This section defines the quality attributes, operational expectations, and engineering constraints for the Product Hub. These requirements ensure the platform is performant, secure, maintainable, scalable, and accessible while supporting long-term growth.
+
+---
+
+# NFR-100 Performance
+
+### NFR-101 Page Load Performance
+
+The platform shall deliver content with fast page load times to provide an excellent user experience.
+
+### NFR-102 Core Web Vitals
+
+The platform shall achieve Google's recommended Core Web Vitals thresholds for all publicly accessible pages.
+
+### NFR-103 Static Content Delivery
+
+Static assets shall be optimized and served through a Content Delivery Network (CDN) where applicable.
+
+### NFR-104 Asset Optimization
+
+Images, fonts, JavaScript, and CSS shall be optimized to minimize page size without compromising quality.
+
+---
+
+# NFR-200 Availability & Reliability
+
+### NFR-201 High Availability
+
+The platform shall maintain high availability for publicly accessible documentation.
+
+### NFR-202 Graceful Failure
+
+Failures shall degrade gracefully without preventing users from accessing unaffected content.
+
+### NFR-203 Backup & Recovery
+
+All source content shall be recoverable through version control and automated backups where applicable.
+
+---
+
+# NFR-300 Scalability
+
+### NFR-301 Content Scalability
+
+The platform shall support growth to thousands of documentation pages without significant degradation in navigation, search, or maintainability.
+
+### NFR-302 Architecture Scalability
+
+The architecture shall allow additional capabilities to be introduced without major redesign.
+
+---
+
+# NFR-400 Security
+
+### NFR-401 Secure Development
+
+The platform shall follow secure development practices throughout its lifecycle.
+
+### NFR-402 Dependency Management
+
+Third-party dependencies shall be regularly reviewed and updated.
+
+### NFR-403 Secrets Management
+
+Secrets, credentials, and API keys shall never be stored in the source repository.
+
+### NFR-404 HTTPS
+
+All published content shall be served over HTTPS.
+
+---
+
+# NFR-500 Accessibility
+
+### NFR-501 Accessibility Compliance
+
+The platform should conform to WCAG 2.2 Level AA accessibility guidelines wherever practical.
+
+### NFR-502 Keyboard Navigation
+
+All interactive functionality shall be accessible using keyboard navigation.
+
+### NFR-503 Semantic Markup
+
+Content shall use semantic HTML to improve accessibility and interoperability.
+
+---
+
+# NFR-600 Search Engine Optimisation
+
+### NFR-601 Metadata
+
+Every published page shall include appropriate metadata for search engines and social sharing.
+
+### NFR-602 Structured Data
+
+Structured data should be implemented where appropriate to improve discoverability.
+
+### NFR-603 Clean URLs
+
+URLs shall be human-readable, stable, and descriptive.
+
+---
+
+# NFR-700 Maintainability
+
+### NFR-701 Documentation First
+
+Product documentation shall remain the primary source of truth for the platform.
+
+### NFR-702 Version Control
+
+All documentation, configuration, and source code shall be maintained in Git.
+
+### NFR-703 Coding Standards
+
+Code and documentation shall follow agreed project standards and conventions.
+
+### NFR-704 Modular Architecture
+
+The platform shall favour modular components and reusable patterns over duplication.
+
+---
+
+# NFR-800 Content Quality
+
+### NFR-801 Review Process
+
+Content shall be reviewed prior to publication to ensure accuracy, consistency, and quality.
+
+### NFR-802 Versioning
+
+Significant content updates shall be versioned and traceable.
+
+### NFR-803 Consistency
+
+Templates, terminology, and formatting shall be applied consistently across all documentation.
+
+---
+
+# NFR-900 Observability
+
+### NFR-901 Analytics
+
+The platform shall collect anonymised usage analytics to understand content engagement.
+
+### NFR-902 Monitoring
+
+Build and deployment processes shall provide sufficient logging to identify failures.
+
+---
+
+# NFR-1000 Portability
+
+### NFR-1001 Platform Independence
+
+The development environment shall support Windows, macOS, and Linux where practical.
+
+### NFR-1002 Reproducibility
+
+A contributor shall be able to recreate the development environment using documented setup instructions.
+
+---
+
+# NFR-1100 Future Readiness
+
+### NFR-1101 AI Readiness
+
+The information architecture and content model shall support future AI-assisted capabilities through structured, well-defined content.
+
+### NFR-1102 Extensibility
+
+The platform shall allow new features and integrations to be added with minimal disruption to existing functionality.
+
+---
+
+# Acceptance Criteria
+
+Each non-functional requirement should:
+
+* Be measurable or objectively verifiable.
+* Influence architecture and implementation decisions.
+* Be validated through testing, monitoring, or review.
+* Support the long-term sustainability of the platform.
+* Balance quality, cost, and maintainability.
+
 9. Information Architecture
 10. Technical Architecture
 11. Success Metrics
