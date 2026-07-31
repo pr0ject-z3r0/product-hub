@@ -1208,9 +1208,10 @@ The Information Architecture will be considered successful if:
 * The structure supports both human users and machine-assisted discovery.
 * New content can be added without requiring structural redesign.
 
-10. Technical Architecture
-11. Success Metrics
-12. Roadmap
-13. Risks
-14. Assumptions
-15. Appendix
+10. High-level Information Architecture
+11. High-level Technical Architecture
+12. Success Metrics
+13. Roadmap
+14. Risks
+15. Assumptions
+16. Appendix
