@@ -264,6 +264,196 @@ All future product decisions should align with the following objectives:
 * Preserve the integrity and trustworthiness of published knowledge.
 
 5. Target Users
+# Target Users and Personas
+
+## Overview
+
+The Product Hub is designed to serve a diverse audience involved in Product Management and Product Development. While these users vary in experience, responsibilities, and objectives, they all share a common need for trustworthy, practical, and well-structured knowledge.
+
+The platform will support users throughout their professional journey, from individuals exploring Product Management as a career to experienced leaders seeking advanced frameworks, implementation guidance, and strategic insights.
+
+---
+
+# Primary User Segments
+
+## 1. Aspiring Product Managers
+
+### Description
+
+Individuals who are transitioning into Product Management from other disciplines such as software engineering, business analysis, UX design, project management, consulting, marketing, or recent graduates entering the profession.
+
+### Goals
+
+* Understand Product Management fundamentals.
+* Learn industry-standard frameworks and methodologies.
+* Build foundational knowledge.
+* Prepare for Product Management interviews.
+* Develop practical skills through examples and exercises.
+
+### Challenges
+
+* Overwhelming amount of fragmented information.
+* Unclear learning paths.
+* Limited practical experience.
+* Difficulty identifying trusted resources.
+
+---
+
+## 2. Early-Career Product Managers
+
+### Description
+
+Professionals with approximately one to five years of Product Management or Product Ownership experience.
+
+### Goals
+
+* Improve product thinking and decision-making.
+* Strengthen discovery and delivery practices.
+* Learn advanced frameworks.
+* Improve stakeholder management.
+* Build confidence in product leadership.
+
+### Challenges
+
+* Applying theory to real-world situations.
+* Managing competing priorities.
+* Communicating effectively with stakeholders.
+* Scaling personal knowledge.
+
+---
+
+## 3. Experienced Product Leaders
+
+### Description
+
+Senior Product Managers, Principal Product Managers, Heads of Product, Directors, and Product Executives.
+
+### Goals
+
+* Explore advanced strategy and leadership topics.
+* Establish product operating models.
+* Improve organisational product maturity.
+* Mentor teams.
+* Access reference material and implementation guidance.
+
+### Challenges
+
+* Maintaining consistency across teams.
+* Scaling product practices.
+* Aligning strategy with execution.
+* Developing future product leaders.
+
+---
+
+## 4. Product Owners and Agile Practitioners
+
+### Description
+
+Professionals responsible for backlog management, sprint planning, stakeholder collaboration, and delivery within Agile environments.
+
+### Goals
+
+* Improve Product Ownership practices.
+* Learn Agile frameworks and delivery techniques.
+* Enhance backlog management.
+* Improve collaboration with development teams.
+
+### Challenges
+
+* Balancing strategic and tactical responsibilities.
+* Managing changing priorities.
+* Translating business needs into actionable work.
+
+---
+
+## 5. Students and Career Changers
+
+### Description
+
+Individuals exploring Product Management as a career path.
+
+### Goals
+
+* Understand the profession.
+* Learn core concepts.
+* Identify required skills.
+* Prepare for interviews.
+* Build a structured learning plan.
+
+### Challenges
+
+* Limited industry knowledge.
+* Difficulty selecting learning resources.
+* Uncertainty about career progression.
+
+---
+
+## 6. Organisations and Teams
+
+### Description
+
+Companies seeking to improve Product Management capabilities across teams.
+
+### Goals
+
+* Standardise Product Management practices.
+* Upskill employees.
+* Support onboarding.
+* Access reusable frameworks, templates, and playbooks.
+
+### Challenges
+
+* Inconsistent product processes.
+* Knowledge silos.
+* Scaling best practices across multiple teams.
+
+---
+
+# Secondary User Segments
+
+The platform may also serve:
+
+* Scrum Masters
+* Agile Coaches
+* Business Analysts
+* UX Researchers
+* UX Designers
+* Software Engineers
+* Engineering Managers
+* Startup Founders
+* Consultants
+* Trainers and Educators
+
+These users will benefit from selected areas of the knowledge base while not being the primary audience.
+
+---
+
+# User Needs
+
+Across all personas, users consistently require:
+
+* Trustworthy and practical knowledge.
+* Structured learning experiences.
+* Searchable reference documentation.
+* Real-world examples and case studies.
+* Reusable templates and playbooks.
+* Clear explanations of frameworks and methodologies.
+* Career development guidance.
+* Continuously maintained content.
+
+---
+
+# Design Principles Derived from Personas
+
+The Product Hub should therefore:
+
+* Support learners at different experience levels.
+* Enable multiple learning paths based on user goals.
+* Present information in a structured and progressive manner.
+* Balance conceptual knowledge with practical application.
+* Minimise cognitive overload through consistent organisation and navigation.
+* Ensure that all content remains discoverable, interconnected, and reusable.
+
 6. Scope
 7. Functional Requirements
 8. Non-Functional Requirements
