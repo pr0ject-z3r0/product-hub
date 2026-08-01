@@ -1,0 +1,32 @@
+---
+import DocsLayout from "../../layouts/DocsLayout.astro";
+import { getAllDocs, getDocBySlug } from "../../lib/docs";
+
+export function getStaticPaths() {
+  return getAllDocs().map((doc) => ({
+    params: {
+      slug: doc.slug,
+    },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const doc = getDocBySlug(slug!);
+
+if (!doc) {
+  throw new Error(`Document '${slug}' not found.`);
+}
+---
+
+<DocsLayout title={doc.title}>
+  <h1>{doc.title}</h1>
+
+  <p>{doc.description}</p>
+
+  <hr />
+
+  <p>
+    The full document content will be rendered here in the next step.
+  </p>
+</DocsLayout>

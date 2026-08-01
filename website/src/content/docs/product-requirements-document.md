@@ -1,7 +1,10 @@
 ---
 title: Product Requirements Document
-description: Product Hub PRD
+description: Defines the Product Hub vision, scope and requirements.
 ---
+# Product Requirements Document
+
+...
 ---
 title: Product Requirements Document
 document_id: PRD-001

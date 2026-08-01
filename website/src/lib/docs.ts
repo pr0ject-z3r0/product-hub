@@ -1,22 +1,21 @@
+import type { Document } from "../types/document";
 
-export interface DocPage {
-  slug: string;
-  title: string;
-  description?: string;
-}
-
-const docs: DocPage[] = [
+const docs: Document[] = [
   {
+    id: "prd",
     slug: "product-requirements-document",
     title: "Product Requirements Document",
-    description: "Defines the vision, scope, goals, and requirements for Product Hub.",
+    description: "Defines the vision, goals and scope of Product Hub.",
+    category: "Planning",
+    tags: ["PRD", "MVP"],
+    order: 1,
   },
 ];
 
-export function getAllDocs(): DocPage[] {
-  return docs;
+export function getAllDocs(): Document[] {
+  return [...docs].sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
 }
 
-export function getDocBySlug(slug: string): DocPage | undefined {
+export function getDocBySlug(slug: string): Document | undefined {
   return docs.find((doc) => doc.slug === slug);
 }
